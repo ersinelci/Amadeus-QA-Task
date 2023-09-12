@@ -1,7 +1,6 @@
 # Amadeus-QA-Task
-# Project Name
 
-Project description and details.
+This project is for achieving Test Automation requirements of a QA Engineer task by Amadeus.
 
 ## Table of Contents
 
@@ -17,7 +16,7 @@ Project description and details.
 
 ## Prerequisites
 
-- Python 3.11
+- Python 3.x
 - [Allure Command Line](https://docs.qameta.io/allure/#_installing_a_commandline) (for generating Allure reports)
 
 ## Getting Started
@@ -30,4 +29,3 @@ Follow these instructions to set up and run the project.
 
    ```bash
    git clone https://github.com/your-username/project-name.git
-
