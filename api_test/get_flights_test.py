@@ -1,7 +1,6 @@
 import http.client
 import requests
 
-
 def test_get_flights():
     # arrange
     url= "https://flights-api.buraky.workers.dev/"
