@@ -51,7 +51,7 @@ coverage.xml
 .project
 .settings
 .vscode
-__pycache__
+api_test/__pycache__
 allure-results
 
 
