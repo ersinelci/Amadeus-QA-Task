@@ -1,12 +1,19 @@
 import http.client
 import requests
+import sys
+import os
+
+config_folder_path = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+sys.path.append(config_folder_path)
+import config
+
 
 def test_get_flights():
     # arrange
-    url= "https://flights-api.buraky.workers.dev/"
+    project_url = config.config.get("apiProjectUrl", "")
 
     # act
-    resp = requests.get(url=url)
+    resp = requests.get(url=project_url)
 
     # assert http status
     assert resp.status_code == http.client.OK

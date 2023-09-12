@@ -10,6 +10,15 @@ class SearchPage(BasePage):
     def to_input(self):
         return self.find_element_by_id("headlessui-combobox-input-:Rqhlla:")
     
+    def dropdown_option(self, text):
+        return self.find_element_by_text("span", text)
+    
+    def search_result(self):
+        return self.find_element_by_text("p", "Found")
+    
     # I added mock error message element for test
     def error_message(self):
         return self.find_element_by_id('error-message')
+    
+
+    
