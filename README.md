@@ -54,7 +54,7 @@ This command shows the test result in a terminal also add allure-results file.
 
 ## Running UI Tests
 
-In the scope of UI Test requirements, search and list functionalities of the web page are tested. To accomplish this, Behave and Selenium are used. To run the tests, following command should be used.
+In the scope of UI Test requirements, search and list functionalities of the web page are tested. To accomplish this, Behave and Selenium are used. To run the tests, the following command should be used.
 
 ```
 python -m behave -f allure_behave.formatter:AllureFormatter -o allure-results ui_test/
@@ -63,4 +63,18 @@ This command also add the test results to the Allure report.
 
 ## Generating Allure Report
 
+After running both UI Tests and API Test, a Allure report should be generated for getting insights about the tests. To generate a Allure report, the following command can be used.
+
+```
+allure serve
+```
+
+It will generate a Allure report like shown as the below.
+
+## Project Structure
+
+The project structured as an instance of Page Object Model(POM). 
+
+> POM is a design pattern which is commonly used in Selenium for Automating the Test Cases. This design pattern can be used with any kind of framework like keyword-driven, Data-driven, hybrid framework, etc.
+> The Page object is an object-oriented class which acts as an interface for the page of your Application under test. Page class contains web elements and methods to interact with web elements. While Automating the test cases, we create the object of these Page > > Classes and interact with web elements by calling the methods of these classes.
 
