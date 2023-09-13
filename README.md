@@ -29,3 +29,12 @@ Follow these instructions to set up and run the project.
 
    ```bash
    git clone https://github.com/your-username/project-name.git
+   
+2. Install project dependencies from the `requirements.txt` file:
+
+  ```bash
+  pip install -r requirements.txt
+
+
+
+
