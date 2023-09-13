@@ -38,7 +38,7 @@ Follow these instructions to set up and run the project.
 
 ## Running API Tests
 
-In the scope of the Backend Test Requirement for this task, HTTP status codes (for GET, it should return 200) and JSON file structure is tested. The correct JSON format is shown below.
+In the scope of the Backend Test Requirement for this task, HTTP status codes (for GET, it should return 200) and JSON file structure is tested. The correct JSON format is shown below. Also in the responses from GET requests, there should be “Content-Type” header and its value should be “application/json”
 
 ![json_format](https://github.com/ersinelci/Amadeus-QA-Task/assets/25690715/ad7ca634-0463-41e7-8658-b5a1a7d6bcf9)
 
