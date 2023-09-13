@@ -109,9 +109,9 @@ Amadeus-QA-Task/
 │   │   ├── common_steps.py
 │   │   ├── flights_list_steps.py
 │   │   └── flights_search_steps.py
-│
+│   ├── environment.py
+|
 ├── requirements.txt
-│
 ├── config.py
 ├── .gitignore
 └── README.md
