@@ -1,6 +1,6 @@
 # Amadeus-QA-Task
 
-This project showcases the implementation of both API and UI tests for the Amadeus application, designed to ensure its quality and reliability.
+This project showcases the implementation of both API and UI tests for the QA task application by Amadeus.
 
 ## Table of Contents
 
