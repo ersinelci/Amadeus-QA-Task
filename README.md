@@ -17,7 +17,9 @@ This project is for achieving Test Automation requirements of a QA Engineer task
 ## Prerequisites
 
 - Python 3.x
+- pip package installer
 - [Allure Command Line](https://docs.qameta.io/allure/#_installing_a_commandline) (for generating Allure reports)
+
 
 ## Getting Started
 
@@ -27,14 +29,11 @@ Follow these instructions to set up and run the project.
 
 1. Clone the project repository to your local machine:
 
-   ```bash
+   ```
    git clone https://github.com/your-username/project-name.git
-   
+    ```
 2. Install project dependencies from the `requirements.txt` file:
 
-  ```bash
+  ```
   pip install -r requirements.txt
-
-
-
-
+ ```
