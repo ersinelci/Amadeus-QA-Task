@@ -79,7 +79,7 @@ The project structured as an instance of Page Object Model(POM).
 
 So the project structure according to Page Object Model(POM) is shown as below.
 
-```plaintext
+```
 Amadeus-QA-Task/
 │
 ├── api_test/
@@ -103,4 +103,4 @@ Amadeus-QA-Task/
 ├── config.py
 ├── .gitignore
 └── README.md
-
+```
