@@ -86,7 +86,8 @@ The project structured as an instance of Page Object Model(POM).
 
 > POM is a design pattern which is commonly used in Selenium for Automating the Test Cases. This design pattern can be used with any kind of framework like keyword-driven, Data-driven, hybrid framework, etc.
 > The Page object is an object-oriented class which acts as an interface for the page of your Application under test. Page class contains web elements and methods to interact with web elements. While Automating the test cases, we create the object of these Page > > Classes and interact with web elements by calling the methods of these classes.
->                                                                                 source: GeeksforGeeks
+>
+> source: GeeksforGeeks
 
 So the project structure according to Page Object Model(POM) is shown as below.
 
