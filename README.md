@@ -67,7 +67,18 @@ After running both UI Tests and API Test, a Allure report should be generated fo
 allure serve
 ```
 
-It will generate a Allure report like shown as the below.
+It will generate a Allure report like shown as the below. The report generated as an html file with empowered JavaScript shows test performance and detailed information about our test results.
+
+![allure_1](https://github.com/ersinelci/Amadeus-QA-Task/assets/25690715/2512a3c2-9209-4769-b8c5-4ab961fc55c9)
+
+Also, test suites can be viewed one by one, so detailed information about every single test suite can be achieved.
+
+![allure_2](https://github.com/ersinelci/Amadeus-QA-Task/assets/25690715/f3f372c2-c89e-4e57-bcf4-9f09f1d94e15)
+
+In addition to this, there's a screenshot tab that take screenshots when a test fails.
+
+![allure_3](https://github.com/ersinelci/Amadeus-QA-Task/assets/25690715/cb035348-25b0-4638-a75d-131853e4221b)
+
 
 ## Project Structure
 
