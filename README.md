@@ -28,7 +28,7 @@ Follow these instructions to set up and run the project.
 1. Clone the project repository to your local machine:
 
    ```
-   git clone https://github.com/your-username/project-name.git
+   git clone https://github.com/ersinelci/Amadeus-QA-Task.git
    ```
 2. Install project dependencies from the `requirements.txt` file:
 
