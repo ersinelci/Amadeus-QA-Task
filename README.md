@@ -11,8 +11,6 @@ This project is for achieving Test Automation requirements of a QA Engineer task
 - [Running UI Tests](#running-ui-tests)
 - [Generating Allure Reports](#generating-allure-reports)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Prerequisites
 
@@ -77,4 +75,32 @@ The project structured as an instance of Page Object Model(POM).
 
 > POM is a design pattern which is commonly used in Selenium for Automating the Test Cases. This design pattern can be used with any kind of framework like keyword-driven, Data-driven, hybrid framework, etc.
 > The Page object is an object-oriented class which acts as an interface for the page of your Application under test. Page class contains web elements and methods to interact with web elements. While Automating the test cases, we create the object of these Page > > Classes and interact with web elements by calling the methods of these classes.
+>                                                                                 source: GeeksforGeeks
+
+So the project structure according to Page Object Model(POM) is shown as below.
+
+```plaintext
+Amadeus-QA-Task/
+│
+├── api_test/
+│   ├── get_flights_test.py
+│
+├── ui_test/
+│   ├── features/
+│   │   ├── flights_list.feature
+│   │   └── flights_search.feature
+│   ├── pages/
+│   │   ├── base_page.py
+│   │   ├── search_page.py
+│   │   └── list_page.py
+│   ├── steps/
+│   │   ├── common_steps.py
+│   │   ├── flights_list_steps.py
+│   │   └── flights_search_steps.py
+│
+├── requirements.txt
+│
+├── config.py
+├── .gitignore
+└── README.md
 
