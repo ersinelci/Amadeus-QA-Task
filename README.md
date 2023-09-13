@@ -59,7 +59,7 @@ python -m behave -f allure_behave.formatter:AllureFormatter -o allure-results ui
 ```
 This command also add the test results to the Allure report.
 
-## Generating Allure Report
+## Generating Allure Reports
 
 After running both UI Tests and API Test, a Allure report should be generated for getting insights about the tests. To generate a Allure report, the following command can be used.
 
