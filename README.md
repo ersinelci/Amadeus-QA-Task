@@ -1,6 +1,6 @@
 # Amadeus-QA-Task
 
-This project is for achieving Test Automation requirements of a QA Engineer task by Amadeus.
+This project showcases the implementation of both API and UI tests for the Amadeus application, designed to ensure its quality and reliability.
 
 ## Table of Contents
 
