@@ -31,9 +31,9 @@ Follow these instructions to set up and run the project.
 
    ```
    git clone https://github.com/your-username/project-name.git
-    ```
+   ```
 2. Install project dependencies from the `requirements.txt` file:
 
-  ```
-  pip install -r requirements.txt
- ```
+   ```
+    pip install -r requirements.txt
+   ```
