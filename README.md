@@ -115,3 +115,4 @@ Amadeus-QA-Task/
 ├── .gitignore
 └── README.md
 ```
+If you have any questions about the task, please don't hesitate the contact me via ersinelci@gmail.com
