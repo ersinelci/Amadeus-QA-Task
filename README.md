@@ -38,17 +38,17 @@ Follow these instructions to set up and run the project.
 
 ## Running API Tests
 
-In the scope of the Backend Test Requirement for this task, HTTP status codes (for GET, it should return 200) and json file structure is tested. The correct json format shown as below.
+In the scope of the Backend Test Requirement for this task, HTTP status codes (for GET, it should return 200) and JSON file structure is tested. The correct JSON format is shown below.
 
 ![json_format](https://github.com/ersinelci/Amadeus-QA-Task/assets/25690715/ad7ca634-0463-41e7-8658-b5a1a7d6bcf9)
 
-The API test is written with pytest package. At the end of the tests a Allure report will be generated so to run this test following command should be used.
+The API test is written with pytest package. At the end of the tests an Allure report will be generated so to run this test following command should be used.
 
 ```
 python -m pytest --alluredir=./allure-results api_test/
 ```
 
-This command shows the test result in a terminal also add allure-results file.
+This command shows the test result in a terminal and also adds to allure-results file.
 
 ## Running UI Tests
 
@@ -57,17 +57,17 @@ In the scope of UI Test requirements, search and list functionalities of the web
 ```
 python -m behave -f allure_behave.formatter:AllureFormatter -o allure-results ui_test/
 ```
-This command also add the test results to the Allure report.
+This command also adds the test results to the Allure report.
 
 ## Generating Allure Reports
 
-After running both UI Tests and API Test, a Allure report should be generated for getting insights about the tests. To generate a Allure report, the following command can be used.
+After running both UI Tests and API Tests, an Allure report should be generated to get insights about the tests. To generate an Allure report, the following command can be used.
 
 ```
 allure serve
 ```
 
-It will generate a Allure report like shown as the below. The report generated as an html file with empowered JavaScript shows test performance and detailed information about our test results.
+It will generate an Allure report as shown below. The report is generated as an HTML file displaying test performance and detailed information about our test results.
 
 ![allure_1](https://github.com/ersinelci/Amadeus-QA-Task/assets/25690715/2512a3c2-9209-4769-b8c5-4ab961fc55c9)
 
@@ -82,7 +82,7 @@ In addition to this, there's a screenshot tab that take screenshots when a test 
 
 ## Project Structure
 
-The project structured as an instance of Page Object Model(POM). 
+The project is structured as an instance of Page Object Model(POM). 
 
 > POM is a design pattern which is commonly used in Selenium for Automating the Test Cases. This design pattern can be used with any kind of framework like keyword-driven, Data-driven, hybrid framework, etc.
 > The Page object is an object-oriented class which acts as an interface for the page of your Application under test. Page class contains web elements and methods to interact with web elements. While Automating the test cases, we create the object of these Page > > Classes and interact with web elements by calling the methods of these classes.
